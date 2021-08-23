@@ -17,7 +17,7 @@ public class Main {
 /*		se a 1ª entrada não atender ao que foi estipulado
 		será exibida uma mensagem e a aplicação será encerrada */
 		if(num1 < 10 || num1 > 999999) {
-			System.out.println("Entrada inválida");
+			System.err.println("Entrada inválida!");
 			System.exit(0);
 		}
 //		definindo a 2ª entrada na caixa de diálogo		
@@ -27,7 +27,7 @@ public class Main {
 /*		se a 2ª entrada não atender ao que foi estipulado
 		será exibida uma mensagem e a aplicação será encerrada */		
 		if(num2 < 0 || num2 > 9) {
-			System.out.println("Entrada inválida");
+			System.err.println("Entrada inválida!");
 			System.exit(0);
 		}
 		
